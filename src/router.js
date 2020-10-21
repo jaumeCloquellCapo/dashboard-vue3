@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-const routerView = { template: '<div><router-view/></div>' }
-
-
 const routes = [
   {
     path: "/",
@@ -13,14 +10,12 @@ const routes = [
   {
     path: "/dashboard",
     name: "dashboard",
-    component: routerView,
+    component: () => import(/* webpackChunkName: "about" */ './views/Dashboard/ParentView.vue'),
     children: [
       {
-        // UserProfile will be rendered inside User's <router-view>
-        // when /user/:id/profile is matched
         path: '',
         name: "main",
-        component: () => import(/* webpackChunkName: "about" */ './views/Dashboard.vue'),
+        component: () => import(/* webpackChunkName: "about" */ './views/Dashboard/Main.vue'),
       }
     ]
   }

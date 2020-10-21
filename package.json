@@ -1,5 +1,5 @@
 {
-  "name": "vue3 Dashboard",
+  "name": "vue3Dashboard",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --hot",
