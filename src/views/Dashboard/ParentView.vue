@@ -1,20 +1,18 @@
 <template>
-<DashboardLayout>
-   <router-view/>
-   </DashboardLayout>
+  <Layout>
+    <router-view />
+  </Layout>
 </template>
 
 <script>
-import DashboardLayout from '../../components/DashboardLayout.vue';
+import Layout from "../../components/Layout.vue";
 import { defineComponent } from "vue";
 export default defineComponent({
-   components: {
-      DashboardLayout
-   },
+  components: {
+    Layout,
+  },
   setup() {
-    return {
-    
-    };
+    return {};
   },
 });
 </script>

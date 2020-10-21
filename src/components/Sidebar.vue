@@ -1,6 +1,7 @@
 <template>
   <div class="flex">
     <!-- Backdrop -->
+
     <div
       :class="isOpen ? 'block' : 'hidden'"
       @click="isOpen = false"
@@ -21,7 +22,7 @@
       <nav class="mt-10">
         <router-link
           class="flex items-center mt-4 py-2 px-6 border-l-4"
-          :class="[$route.name === 'Dashboard' ? activeClass : inactiveClass]"
+          :class="[$route.name === 'main' ? activeClass : inactiveClass]"
           to="/dashboard"
         >
           <span class="material-icons"> dashboard </span>
