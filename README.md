@@ -30,28 +30,6 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | Tailwind css | <https://github.com/tailwindlabs/tailwindcss> |
 
 
-### Development
-
-Want to contribute? Great!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ npm i
-```
-
-Second Tab:
-```sh
-$ npm run start
-```
-
-#### Building for source
-For production release:
-```sh
-$ npm run build --prod
-```
-
 License
 ----
 
