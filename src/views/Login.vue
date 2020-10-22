@@ -21,7 +21,7 @@
             fill="white"
           />
         </svg>
-        <span class="text-gray-700 font-semibold text-2xl">V-Dashboard</span>
+        <span class="text-gray-700 font-semibold text-2xl">Vue3-Dashboard</span>
       </div>
 
       <form class="mt-4" @submit.prevent="login">
@@ -80,7 +80,7 @@ import { useRouter } from "vue-router";
 export default defineComponent({
   setup() {
     const router = useRouter();
-    const email = ref("johndoe@mail.com");
+    const email = ref("jaimito@mail.com");
     const password = ref("@#!@#asdf1231!_!@#");
 
     function login() {
