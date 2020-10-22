@@ -3,8 +3,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0db9cac7-8b4d-4bcf-a27f-810e635d15ee/deploy-status)](https://app.netlify.com/sites/compassionate-cray-076de8/deploys)
 
-![Vue Dashboard Black - App Screen Shot.](https://github.com/app-generator/static/blob/master/admin-dashboards/vue-dashboard-black-screen.jpg?raw=true)
-
 ### Installation
 
 Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
