@@ -1,4 +1,4 @@
-# [Vue3 Material Dashboard](https://compassionate-cray-076de8.netlify.app/)
+# [Vue3 Tailwind Dashboard](https://compassionate-cray-076de8.netlify.app/)
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0db9cac7-8b4d-4bcf-a27f-810e635d15ee/deploy-status)](https://app.netlify.com/sites/compassionate-cray-076de8/deploys)
